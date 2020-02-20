@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#336CDD</color>
+    <color name="colorPrimaryDark">#2255C0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroundOfNavBar">#2255C0</color>
+    <color name="bottom_navigation_text_background_colors">#FFF</color>
+    <color name="backgroundOfApp">#366BDB</color>
+    <color name="navBotton">#C6D8D8D8</color>
+    <color name="PrimaryBlue">#366ADA</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_events"
+        android:state_checked="true"
+        android:icon="@drawable/audio"
+        android:title="@string/excursions"/>
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/monument"
+        android:title="@string/about_museum"/>
+
+</menu>
