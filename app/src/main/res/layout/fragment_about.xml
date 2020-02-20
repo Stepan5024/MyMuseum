@@ -138,7 +138,6 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/shaped_lin_layout"
                     android:orientation="vertical">
 
                     <ImageView
@@ -160,7 +159,6 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/shaped_lin_layout"
                     android:orientation="vertical">
 
                     <ImageView
@@ -182,7 +180,6 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/shaped_lin_layout"
                     android:orientation="vertical">
 
                     <ImageView
@@ -231,12 +228,11 @@
                 android:text="            Черепов  Лев  Васильевич –  родился в 1928 году  в городе Пскове Ленинградской области в семье военнослужащего.   После родители переехали в город Ленинград, где учился до 1941г. потом эвакуирован в город Кострому, и далее был перевезен в деревню Ивановка, Сорочинского района Оренбуржской области. В 2014 году создал музей естественного цикла «Антарктида»
 Лев Васильевич Черепов имеет 15 правительственных наград, медаль «За боевые заслуги», автор 34 научных работ."                android:textStyle="bold" />
 
-            <LinearLayout
+            <!--<LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/shaped_lin_layout"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -252,7 +248,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="16dp"
                     android:text="Фотогалерея" />
-            </LinearLayout>
+            </LinearLayout>-->
 
             <LinearLayout
                 android:layout_width="match_parent"

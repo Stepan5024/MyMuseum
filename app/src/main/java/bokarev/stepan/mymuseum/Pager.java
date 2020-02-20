@@ -17,7 +17,7 @@ public class Pager extends FragmentStatePagerAdapter {
 
     public Pager(FragmentManager fm, int tabCount) {
         super(fm);
-        //оличество вкладок
+        //количество вкладок
         this.tabCount = tabCount;
     }
 
@@ -26,15 +26,20 @@ public class Pager extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                FragmentCard tab1 = new FragmentCard();
+                ExpeditionFragment tab1 = new ExpeditionFragment();
                 return tab1;
             case 1:
-                FragmentCard tab2 = new FragmentCard();
+                ModeOfLifePolernikFragment tab2 = new ModeOfLifePolernikFragment();
                 return tab2;
             case 2:
-                FragmentCard tab3 = new FragmentCard();
+                AboutStationFragment tab3 = new AboutStationFragment();
                 return tab3;
-
+            case 3:
+                FloraAndAnimalFragment tab4 = new FloraAndAnimalFragment();
+                return tab4;
+            case 4:
+                ClothesFragment tab5 = new ClothesFragment();
+                return tab5;
             default:
                 return null;
         }
@@ -48,6 +53,7 @@ public class Pager extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
+
         return tabCount;
     }
 
