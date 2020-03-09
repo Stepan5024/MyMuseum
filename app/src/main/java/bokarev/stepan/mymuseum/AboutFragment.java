@@ -25,7 +25,7 @@ public class AboutFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_about, container, false);
-       // getActivity().setExitSharedElementCallback((Toolbar) view.findViewById(R.id.toolbar));
+
         CollapsingToolbarLayout collapsingToolbar = view.findViewById(R.id.collapsingToolbarLayout);
         collapsingToolbar.setTitle("Музей Антарктиды в школе №1590");
         return view;
